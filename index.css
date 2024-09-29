@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* body{
+  height: 100vh;
+  background-image: linear-gradient(#D8C7FF,#19006C);
+} */
+body{
+    
+  background-image: url('./assets/bg_img.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust this as needed */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Optional: To make text readable over the background */
+}
